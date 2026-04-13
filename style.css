@@ -90,9 +90,11 @@ a {
 figcaption {
   font-size: 0.78rem;
   color: var(--c-text-muted);
-  text-align: center;
   margin-top: 0.75rem;
   letter-spacing: 0.06em;
+  left: 20px;
+  bottom: 2px;
+  position: absolute;
   text-transform: uppercase;
 }
 
@@ -962,9 +964,6 @@ strong {
 }
 
 /* Tall item: spans 2 rows */
-.gallery__item--tall {
-  grid-row: span 2;
-}
 
 .gallery__item--tall img {
   min-height: 100%;
