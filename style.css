@@ -1,11 +1,11 @@
 /* ==============================================
-   BALI YOGA RETREAT — STYLESHEET
+   BALI YOGA RETREAT - STYLESHEET
    style.css
    ============================================== */
 
 /* ── DESIGN TOKENS ──────────────────────────── */
 :root {
-  /* Palette — warm, natural, tropical */
+  /* Palette - warm, natural, tropical */
   --c-bg: #fdfaf5; /* warm cream white      */
   --c-surface: #ffffff;
   --c-sand: #f2ead9; /* warm sand beige       */
@@ -206,7 +206,7 @@ strong {
   box-shadow: 0 10px 28px rgba(184, 122, 82, 0.32);
 }
 
-/* Primary — dark */
+/* Primary - dark */
 .btn--primary {
   background-color: var(--c-text);
   color: var(--c-bg);
@@ -220,7 +220,7 @@ strong {
   box-shadow: 0 10px 28px rgba(42, 33, 24, 0.25);
 }
 
-/* Outline light — for dark backgrounds */
+/* Outline light - for dark backgrounds */
 .btn--outline-light {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.9);
